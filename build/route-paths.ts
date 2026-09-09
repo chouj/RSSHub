@@ -37,6 +37,7 @@ export type RoutePath =
   | `/199it/:category{.+}?`
   | `/19lou/:city?`
   | `/1lou/:params{.+}?`
+  | `/1lou/search/:params`
   | `/1point3acres/blog/:category?`
   | `/1point3acres/category/:id?/:type?/:order?`
   | `/1point3acres/offer/:year?/:major?/:school?`
@@ -103,6 +104,7 @@ export type RoutePath =
   | `/95mm/category/:category`
   | `/95mm/tab/:tab?`
   | `/95mm/tag/:tag`
+  | `/98zhibo/zuqiujijin`
   | `/99percentinvisible/transcript`
   | `/9to5/:subsite/:tag?`
   | `/a9vg/:category{.+}?`
@@ -1732,6 +1734,7 @@ export type RoutePath =
   | `/ichunqiu/`
   | `/iciba/:days?/:img_type?`
   | `/icity/:id`
+  | `/icity/imuseum/:city/:type?`
   | `/icourse163/newest`
   | `/idaily/:language?`
   | `/idolmaster/news/:routeParams?`
@@ -2293,6 +2296,7 @@ export type RoutePath =
   | `/mymusicsheet/user/sheets/:username/:iso?/:freeOnly?`
   | `/mysql/release/:version?`
   | `/naceweb/blog/:sort?`
+  | `/namoc/zhanlan`
   | `/nanhua/report/:type1/:type2`
   | `/nankai/ai/:type?`
   | `/nankai/cc/:type?`
